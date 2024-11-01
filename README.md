@@ -58,11 +58,6 @@
 
 [![Home screen](GUI/Assets/images/full_screen.png)](GUI/Assets/images/full_screen.png)
 
-[![Facebook][facebook-icon]](https://www.facebook.com) [![Messenger][messenger-icon]](https://www.messenger.com)
-
-[facebook-icon]: https://img.shields.io/badge/Facebook-3b5998?style=flat&logo=facebook&logoColor=white
-[messenger-icon]: https://img.shields.io/badge/Messenger-0084ff?style=flat&logo=messenger&logoColor=white
-
 This project is an innovative application that integrates Facebook and Messenger to enhance user interaction. It allows users to easily share content, connect with friends, and communicate through Messenger without leaving the Facebook ecosystem. Our goal is to create a more cohesive and engaging experience for users, enabling them to stay connected and share moments effortlessly.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -71,16 +66,25 @@ This project is an innovative application that integrates Facebook and Messenger
 
 ### Built With
 
-* [![C#][CSharp.com]][CSharp-url] 
-* [![WinForms][WinForms.com]][WinForms-url]
-* [![ADO.NET][ADO.net.com]][ADO.net-url]
+* [![React][React.com]][React-url]
+* [![Spring Boot][SpringBoot.com]][SpringBoot-url]
+* [![MySQL][MySQL.com]][MySQL-url]
+* [![Payment Gateway][PaymentGateway.com]][PaymentGateway-url]
+* [![Tailwind CSS][Tailwind.com]][Tailwind-url]
+* [![MUI][MUI.com]][MUI-url]
 
-[CSharp.com]: https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white
-[CSharp-url]: https://docs.microsoft.com/en-us/dotnet/csharp/
-[WinForms.com]: https://img.shields.io/badge/WinForms-5C2D3D?style=flat&logo=dotnet&logoColor=white
-[WinForms-url]: https://docs.microsoft.com/en-us/dotnet/desktop/winforms/
-[ADO.net.com]: https://img.shields.io/badge/ADO.NET-4B8BBE?style=flat&logo=dotnet&logoColor=white
-[ADO.net-url]: https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/
+[React.com]: https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black
+[React-url]: https://reactjs.org/
+[SpringBoot.com]: https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring&logoColor=white
+[SpringBoot-url]: https://spring.io/projects/spring-boot
+[MySQL.com]: https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white
+[MySQL-url]: https://www.mysql.com/
+[PaymentGateway.com]: https://img.shields.io/badge/Payment%20Gateway-00BFFF?style=flat&logo=paypal&logoColor=white
+[PaymentGateway-url]: https://www.paypal.com/
+[Tailwind.com]: https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white
+[Tailwind-url]: https://tailwindcss.com/
+[MUI.com]: https://img.shields.io/badge/MUI-007FFF?style=flat&logo=mui&logoColor=white
+[MUI-url]: https://mui.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
