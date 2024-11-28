@@ -1,25 +1,24 @@
 import React, { useState } from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import { ahri } from '../../../Data/ahri';
 import HomeSectionCard from '../HomeSectionCard/HomeSectionCard';
 import { Button } from '@mui/material';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
-const responsive = {
-    0: { items: 1 },
-    720: { items: 3 },
-    1024: { items: 5.5 },
-};
+const HomeSectionCarousel = ({ data = [], sectionName }) => {
+    const responsive = {
+        0: { items: 1 },
+        720: { items: 3 },
+        1024: { items: 5.5 },
+    };
 
-const items = ahri.slice(0, 10).map((item) => (
-    <HomeSectionCard key={item.id} product={item} />
-));
+    const items = Array.isArray(data) ? data.slice(0, 10).map((item) => (
+        <HomeSectionCard key={item.id} product={item} />
+    )) : [];
 
-const HomeSectionCarousel = () => {
     const [activeIndex, setActiveIndex] = useState(0);
-    const visibleItems = 5; // Number of items visible at once
+    const visibleItems = 5;
 
     const slideNext = () => {
         if (activeIndex < items.length - visibleItems) {
@@ -35,6 +34,7 @@ const HomeSectionCarousel = () => {
 
     return (
         <div className='border'>
+            <h2 className='text-2xl font-extrabold text-gray-800 py-5'>{sectionName}</h2>
             <div className='relative p-5'>
                 <AliceCarousel
                     mouseTracking

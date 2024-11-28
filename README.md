@@ -64,14 +64,20 @@ This project is an innovative application that integrates Facebook and Messenger
 
 
 
-### Built With
+### Tech Stack Used
 
-* [![React][React.com]][React-url]
-* [![Spring Boot][SpringBoot.com]][SpringBoot-url]
-* [![MySQL][MySQL.com]][MySQL-url]
-* [![Payment Gateway][PaymentGateway.com]][PaymentGateway-url]
-* [![Tailwind CSS][Tailwind.com]][Tailwind-url]
-* [![MUI][MUI.com]][MUI-url]
+**Frontend:**
+- **Framework:** ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+- **UI Libraries:** ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white), ![MUI](https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=mui&logoColor=white)
+- **State Management:** Redux
+- **Authentication:** JWT (JSON Web Tokens)
+- **Routing:** React Router Dom
+
+**Backend:**
+- **Framework:** ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring&logoColor=white)
+- **Security:** Spring Security
+- **Database:** ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+- **Payment Gateway:** Razorpay Payment Gateway
 
 [React.com]: https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black
 [React-url]: https://reactjs.org/
